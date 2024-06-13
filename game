@@ -100,7 +100,7 @@ class Game:
 
     def create_border(self):
         """
-        Рисует границу игры на холсте.
+        Рисует границу игры на холсте
         """
         self.canvas.create_rectangle(0, 0, self.width * 10, self.height * 10, outline="gray")
 
