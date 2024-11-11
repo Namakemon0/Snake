@@ -11,9 +11,6 @@ class Snake:
         self.direction = (1, 0)
 
     def move(self, dx, dy):
-        """
-        Перемещает змейку, создавая новую голову и удаляя хвост.
-        """
         new_head = Snake(self.canvas, self.x + dx, self.y + dy)
         self.body.insert(0, new_head)
         self.body.pop()
