@@ -3,9 +3,6 @@ import random
 
 
 class Snake:
-    """
-    Представляет отдельную часть тела змейки.
-    """
     def __init__(self, canvas, x, y):
         self.canvas = canvas
         self.x = x
